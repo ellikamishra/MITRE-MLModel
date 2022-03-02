@@ -1,0 +1,8 @@
+show history of scrapper
+show difference
+take technique name, when clicked on analyze, show results on right side
+
+script your demo
+
+splunk
+exabeam mitre use cases
