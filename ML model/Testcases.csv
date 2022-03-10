@@ -1,0 +1,13 @@
+data input,predict id,actual id,,actual name
+"provide a set of functions to execute or a command-line interface on the system that hosts the Web server, function of web shells",T1505.003,T1505.003,,Server Software Component: Web Shell
+"Monitor network traffic for unusual ARP traffic, gratuitous ARP replies may be suspicious. Consider collecting changes to ARP caches across endpoints for signs of ARP poisoning",T1557.002,T1558.004,,
+Incidents have been observed where adversaries have created backups of cloud instances and transferred them to separate accounts,same,T1537,,
+"If an adversary is using a standard command-line shell, analysts can detect token manipulation by auditing command-line activity.",,,,
+"disabling individual services of high importance to an organization, such as MSExchangeIS, thus making exchange content inaccesible.",same,T1489,,
+ hide a program's true filetype by changing the extension of a file and later use this feature to trick users into double clicking benign-looking files of any format and ultimately executing something malicious,same,T1036.006,,
+"The malware basically provides a remote CMD/PowerShell terminal for the attackers, enabling them to execute any scripts/commands and receive the result via HTTP requests",same,T1059,,
+Trickbot uses this encrypted module to scan the network and steal relevant network information.,same,T1061,,
+The removal of the com.apple.quarantine flag by a user instead of the operating system is a suspicious action and should be examined further.,same,T1553.001,,
+"unusual login activity from unknown or abnormal locations, especially for privileged accounts",same,T1114.002,,
+"Changes to accessibility utility binaries or binary paths that do not correlate with known software, patch cycles, etc., are suspicious. Command line invocation of tools capable of modifying the Registry for associated keys are also suspicious. Utility arguments and the binaries themselves should be monitored for changes.",T1546.008,T1531,,
+The malware sends an HTTP GET request to its C2 IP address using HTTP over port 443,T1071,T1071,,
