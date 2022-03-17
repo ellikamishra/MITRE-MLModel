@@ -1,0 +1,24 @@
+**_Classification Algortihms_**
+
+Our aim in this project was to classify the testcases in appropriate MITRE techniques. The total class
+count for techniques is 552(may vary in future), the unique techniques identified under MITRE. Finding
+the correct ML model to solve this problem we tried classificaton algorithms like- NaiveBayes, Support Vectors and Random Forests.
+
+\*Support Vectors-Support vector machines is an algorithm that determines the best decision boundary between vectors that belong to a given group
+(or category) and vectors that do not belong to it.
+Support vector machine (SVM) is a powerful technique for data classification. Despite of its good theoretic foundations and high classification accuracy,
+normal SVM is not suitable for classification of large data sets, because the training complexity of SVM is highly dependent on the size of data set.
+
+\*Random Forest Classifier-Random Forest is a classifier that contains a number of decision trees on various subsets of the given dataset and takes the average to improve the predictive accuracy of that dataset." Instead of relying on one decision tree,
+the random forest takes the prediction from each tree and based on the majority votes of predictions, and it predicts the final output.
+The greater number of trees in the forest leads to higher accuracy and prevents the problem of overfitting.
+Performance of the standard algorithm is not great on imbalanced classification problems like the one we are handling
+here with 552 classes.
+
+\*NaiveBayes-Naive Bayes classifiers are a collection of classification algorithms based on Bayes’ Theorem.
+It is not a single algorithm but a family of algorithms where all of them share a common principle,
+i.e. every pair of features being classified is independent of each other.
+
+https://www.mygreatlearning.com/blog/introduction-to-naive-bayes/
+
+better results using mulitnomialn nb, shown in metrics.
