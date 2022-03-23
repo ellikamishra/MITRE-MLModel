@@ -22,3 +22,10 @@ i.e. every pair of features being classified is independent of each other.
 https://www.mygreatlearning.com/blog/introduction-to-naive-bayes/
 
 better results using mulitnomialn nb, shown in metrics.
+
+To improve the accuracy of predictions made we use
+
+Why stratified sampling?
+https://www.baeldung.com/cs/ml-stratified-sampling
+
+We cannot use leave one out as dataset is too large and would be computationally costly.
